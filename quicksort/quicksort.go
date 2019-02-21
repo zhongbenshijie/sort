@@ -4,7 +4,6 @@ func QuickSort(intSlice []int, start int, end int) {
 	if start < end {
 		i := start
 		j := end
-
 		t := intSlice[i]
 
 		for i < j {
