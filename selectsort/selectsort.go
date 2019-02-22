@@ -1,6 +1,6 @@
 package bubblesort
 
-func BubbleSort(intSlice []int) {
+func SelectSort(intSlice []int) {
 	for i := 0; i < len(intSlice)-1; i++ {
 		for j := i + 1; j < len(intSlice); j++ {
 			if intSlice[i] > intSlice[j] {
